@@ -1,0 +1,18 @@
+{
+  "name": "oracle-arena-backend",
+  "version": "0.1.0",
+  "description": "Arena Seat and Beers Service",
+  "main": "server.js",
+  "scripts": {
+    "prepublish": "zip -r oracle-arena-backend-app-dist.zip manifest.json *.js *.json node_modules"
+  },
+  "author": "kunal.rupani@oracle.com",
+  "dependencies": {
+    "express": "~4.5.1",
+    "logfmt": "~1.2.0",
+    "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": "6.x"
+  }
+}
