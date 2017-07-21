@@ -1,6 +1,5 @@
 Oracle Arena Backend Microservice
 =================================
+(ACCS/NodeJS +MYSQL CS)
 
-Build with "npm install".
-
-Run with "node server.js"
+Sample built for Oracle Demos and node_modules intentionally not added to .gitignore
